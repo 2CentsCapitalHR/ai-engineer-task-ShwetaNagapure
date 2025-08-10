@@ -161,7 +161,7 @@ Specialized in data-driven decision systems, AI-assisted tools, and Flask web ap
 ## Documentation
 
 For comprehensive project documentation, visit:
-**[Project Documentation](https://your-documentation-link.com)**
+**[Project Documentation]([https://your-documentation-link.com](https://docs.google.com/document/d/1YnwdUrAfk2Vwh6Isafu5kc3te4MyWmOV4-2t74EFRe8/edit?usp=sharing)**
 
 ---
 Important Note
@@ -170,4 +170,5 @@ This project was developed as a demonstration task. The configuration files (req
 
 ---
 *Professional legal document intelligence solution for corporate compliance*
+
 
