@@ -1,0 +1,44 @@
+{
+  "legal_process": "company_formation_and_governance",
+  "uploaded_documents": [
+    "RESOLUTION OF INCORPORATING SHAREHOLDERS"
+  ],
+  "missing_documents": [
+    "Articles of Association"
+  ],
+  "issues_found": [
+    {
+      "document": "RESOLUTION OF INCORPORATING SHAREHOLDERS",
+      "section": "Appointment of Signatory for Incorporation Purposes",
+      "issue": "Ambiguous signatory name and misspelling of \"RESOVED\"",
+      "severity": "medium",
+      "suggestion": "Correct spelling to \"RESOLVED\" and provide full name and title of signatory",
+      "law_citation": "None"
+    },
+    {
+      "document": "RESOLUTION OF INCORPORATING SHAREHOLDERS",
+      "section": "Adoption of Articles",
+      "issue": "No Articles of Association attached",
+      "severity": "high",
+      "suggestion": "Attach the Articles of Association document",
+      "law_citation": "Company Law, Abu Dhabi Global Market"
+    },
+    {
+      "document": "RESOLUTION OF INCORPORATING SHAREHOLDERS",
+      "section": "Authorised Share Capital",
+      "issue": "Missing share class details and registration number",
+      "severity": "medium",
+      "suggestion": "Include share class, par value, and company registration number",
+      "law_citation": "Company Law, Abu Dhabi Global Market"
+    },
+    {
+      "document": "RESOLUTION OF INCORPORATING SHAREHOLDERS",
+      "section": "Signature of Incorporating Shareholders",
+      "issue": "No signatures or dates for each shareholder",
+      "severity": "high",
+      "suggestion": "Add signatures, printed names, and dates for all shareholders",
+      "law_citation": "Company Law, Abu Dhabi Global Market"
+    }
+  ],
+  "summary_message": "Resolution submitted but lacks Articles of Association, contains typographical errors, missing signatures and registration details."
+}

@@ -1,0 +1,50 @@
+{
+  "legal_process": "account_authority_request",
+  "uploaded_documents": [
+    "Account Authority Request \u2013 Online Registry Solution"
+  ],
+  "missing_documents": [],
+  "issues_found": [
+    {
+      "document": "Account Authority Request \u2013 Online Registry Solution",
+      "section": "Authorised Signatory Name: mansi Nagapure Signature",
+      "issue": "Signature not provided",
+      "severity": "high",
+      "suggestion": "Provide a scanned or electronic signature",
+      "law_citation": "ADGM Regulation 3.2"
+    },
+    {
+      "document": "Account Authority Request \u2013 Online Registry Solution",
+      "section": "Grant permission to access the entity account to the following user(s):",
+      "issue": "Scope and duration of access not defined",
+      "severity": "medium",
+      "suggestion": "Specify scope of access and duration of authority",
+      "law_citation": "ADGM Regulation 4.1"
+    },
+    {
+      "document": "Account Authority Request \u2013 Online Registry Solution",
+      "section": "Email address: shweta@gmail.com",
+      "issue": "Use of personal email address may not be acceptable for official authority",
+      "severity": "medium",
+      "suggestion": "Use official corporate email address",
+      "law_citation": "ADGM Regulation 5.3"
+    },
+    {
+      "document": "Account Authority Request \u2013 Online Registry Solution",
+      "section": "Shweta Nagapure license number: 14042005",
+      "issue": "Missing entity registration number",
+      "severity": "medium",
+      "suggestion": "Include entity registration number",
+      "law_citation": "ADGM Regulation 2.4"
+    },
+    {
+      "document": "Account Authority Request \u2013 Online Registry Solution",
+      "section": "(none)",
+      "issue": "No appendices or schedules attached",
+      "severity": "low",
+      "suggestion": "Attach required schedules or appendices",
+      "law_citation": ""
+    }
+  ],
+  "summary_message": "Account authority request reviewed; missing signature, ambiguous scope, personal email usage, missing entity registration number, and lack of appendices identified."
+}
