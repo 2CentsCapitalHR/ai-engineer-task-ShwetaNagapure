@@ -1,0 +1,8 @@
+flask
+python-docx
+sentence-transformers
+numpy
+faiss-cpu
+python-dotenv
+groq
+pdfkit

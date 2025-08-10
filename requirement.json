@@ -1,0 +1,75 @@
+{
+  "company_formation_and_governance": {
+    "description": "General incorporation documents, AoA, MoA, Registers, UBO, Board Resolutions",
+    "required_documents": [
+      "Articles of Association",
+      "Memorandum of Association",
+      "Registers (Register of Members and Directors)",
+      "UBO Declaration Form",
+      "Board Resolution Templates"
+    ]
+  },
+  "company_formation": {
+    "description": "Resolution for Incorporation (LTD - Multiple Shareholders)",
+    "required_documents": [
+      "Resolution for Incorporation (LTD - Multiple Shareholders)",
+      "Incorporation Application Form"
+    ]
+  },
+  "company_formation_and_compliance": {
+    "description": "Incorporation, SPV, LLC, Other Forms & Templates",
+    "required_documents": [
+      "Incorporation Forms & Templates"
+    ]
+  },
+  "policy_and_guidance": {
+    "description": "Guidance, Templates, Policy Statements",
+    "required_documents": [
+      "Policy and Guidance Documents"
+    ]
+  },
+  "adgm_company_set_up_checklists": {
+    "description": "Checklists for Company Setup for various entities",
+    "required_documents": [
+      "Checklist  Company Set-up (Various Entities)",
+      "Checklist  Private Company Limited"
+    ]
+  },
+  "employment_and_hr": {
+    "description": "Standard Employment Contract Templates",
+    "required_documents": [
+      "Standard Employment Contract Template (2024 update)",
+      "Standard Employment Contract Template (2019 short version)"
+    ]
+  },
+  "data_protection": {
+    "description": "Appropriate Policy Document Template",
+    "required_documents": [
+      "Appropriate Policy Document Template"
+    ]
+  },
+  "compliance_and_filings": {
+    "description": "Annual Accounts & Filings",
+    "required_documents": [
+      "Annual Accounts & Filings Guidance"
+    ]
+  },
+  "letters_and_permits": {
+    "description": "Application for Official Letters & Permits",
+    "required_documents": [
+      "Application for Official Letters & Permits"
+    ]
+  },
+  "regulatory_guidance": {
+    "description": "Incorporation Package, Filings, Templates",
+    "required_documents": [
+      "Incorporation Package and Templates"
+    ]
+  },
+  "regulatory_templates": {
+    "description": "Shareholder Resolution  Amendment of Articles",
+    "required_documents": [
+      "Shareholder Resolution  Amendment of Articles"
+    ]
+  }
+}

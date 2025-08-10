@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ADGM-Compliant Corporate Agent</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/results.css') }}">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>ADGM-Compliant Corporate Agent</h1>
+      <h2>Analysis Results</h2>
+    </header>
+
+    <section>
+      <h3>Summary</h3>
+      <p class="summary">{{ report.summary_message }}</p>
+    </section>
+
+    <section>
+      <h3>Legal Process</h3>
+      <p>{{ report.legal_process }}</p>
+    </section>
+
+    <section>
+      <h3>Uploaded Documents</h3>
+      <table>
+        <thead>
+          <tr><th>Document Name</th></tr>
+        </thead>
+        <tbody>
+          {% for d in report.uploaded_documents %}
+            <tr><td>{{ d }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h3>Missing Documents</h3>
+      <table>
+        <thead>
+          <tr><th>Document Name</th></tr>
+        </thead>
+        <tbody>
+          {% for m in report.missing_documents %}
+            <tr><td>{{ m }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h3>Issues Found</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Document</th>
+            <th>Section</th>
+            <th>Issue</th>
+            <th>Severity</th>
+            <th>Suggestion</th>
+            <th>Law Citation</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for issue in report.issues_found %}
+            <tr>
+              <td>{{ issue.document }}</td>
+              <td><pre>{{ issue.section }}</pre></td>
+              <td>{{ issue.issue }}</td>
+              <td class="severity {{ issue.severity|lower }}">{{ issue.severity }}</td>
+              <td>{{ issue.suggestion }}</td>
+              <td>{{ issue.law_citation }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h3>Downloads</h3>
+      <table>
+        <thead>
+          <tr><th>File</th><th>Download</th></tr>
+        </thead>
+        <tbody>
+          {% for fname in filenames %}
+            <tr>
+              <td>{{ fname }}</td>
+              <td>
+                <a href="{{ url_for('download_annotated', job_id=job_id, filename=fname) }}">Annotated</a> |
+                <a href="{{ url_for('download_original', job_id=job_id, filename=fname) }}">Original</a>
+              </td>
+            </tr>
+          {% endfor %}
+          <tr>
+            <td>JSON Report</td>
+            <td><a href="{{ url_for('download_report', job_id=job_id) }}">Download</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+      <a href="{{ url_for('upload_page') }}" class="btn">Analyze More Documents</a>
+    </footer>
+  </div>
+</body>
+</html>
