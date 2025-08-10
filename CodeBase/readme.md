@@ -161,8 +161,7 @@ Specialized in data-driven decision systems, AI-assisted tools, and Flask web ap
 ## Documentation
 
 For comprehensive project documentation, visit:
-**[Project Documentation]([https://your-documentation-link.com](https://docs.google.com/document/d/1YnwdUrAfk2Vwh6Isafu5kc3te4MyWmOV4-2t74EFRe8/editusp=sharing))**
-
+**[Project Documentation](https://docs.google.com/document/d/1YnwdUrAfk2Vwh6Isafu5kc3te4MyWmOV4-2t74EFRe8/edit?usp=sharing)**
 ---
 Important Note
 This project was developed as a demonstration task. The configuration files (requirement.json and knowledgebase_docs.json) contain limited information for proof-of-concept purposes. For production deployment and optimal results, these files should be expanded with comprehensive legal document requirements and extensive knowledge base content specific to your organization's compliance needs.
@@ -170,6 +169,7 @@ This project was developed as a demonstration task. The configuration files (req
 
 ---
 *Professional legal document intelligence solution for corporate compliance*
+
 
 
 
