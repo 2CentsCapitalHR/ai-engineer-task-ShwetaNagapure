@@ -157,4 +157,9 @@ For comprehensive project documentation, visit:
 **[Project Documentation](https://your-documentation-link.com)**
 
 ---
+Important Note
+This project was developed as a demonstration task. The configuration files (requirement.json and knowledgebase_docs.json) contain limited information for proof-of-concept purposes. For production deployment and optimal results, these files should be expanded with comprehensive legal document requirements and extensive knowledge base content specific to your organization's compliance needs.
+
+
+---
 *Professional legal document intelligence solution for corporate compliance*
