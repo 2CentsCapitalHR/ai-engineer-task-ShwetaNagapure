@@ -35,7 +35,7 @@ This project is a Flask-based Compliant Corporate Agent with Document Intelligen
 ### Backend
 - **Flask** - Python web framework
 - **python-docx** - Document parsing library
-- **Groq API** - LLM integration (`gpt-oss-20b` model)
+- **Groq API** - LLM integration (`gpt-oss-20b` model) 
 
 ### Frontend
 - **HTML5/CSS3** - Modern web standards
@@ -59,7 +59,7 @@ This project is a Flask-based Compliant Corporate Agent with Document Intelligen
 
 ### RAG Implementation
 - **Knowledge Base**: `knowledgebase_docs.json`
-- **Embedding-Based Retrieval** for contextual enhancement
+- **Embedding-Based Retrieval** for contextual enhancement(`all-MiniLM-L6-v2`Model)
 - **Intelligent Information Retrieval** before LLM querying
 
 ---
@@ -132,6 +132,13 @@ http://127.0.0.1:5000
 5. **AI Analysis** - Groq LLM validates and flags compliance issues
 6. **Results Display** - Structured output in professional dashboard
 
+---
+## Watch Demo Video
+
+[![Video Demo](https://img.shields.io/badge/📹_Video_Demo-Watch_Here-red?style=for-the-badge)](https://drive.google.com/file/d/1TyhQ_YQgfnFXtL-sBn6UVdyt5VkCa8Qq/view)
+
+---
+
 ### Configuration Files
 - **`requirement.json`** - Defines required document types and descriptions
 - **`knowledgebase_docs.json`** - Stores legal knowledge for RAG pipeline
@@ -163,3 +170,4 @@ This project was developed as a demonstration task. The configuration files (req
 
 ---
 *Professional legal document intelligence solution for corporate compliance*
+
